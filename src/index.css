@@ -27,10 +27,15 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	background-color: var(--color1);
-	overflow: hidden;
 }
 .shadow-frame {
 	box-shadow: 2px 2px 8px 0 var(--color6);
+}
+/* ! NEEDS TESTING FOR MOBILE PHONE VIEW */
+@media screen and (min-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
 }
 /* End Global Styling */
 
@@ -42,7 +47,7 @@ header {
 	display: flex;
 	justify-content: center;
 	padding: 0 20px;
-	border-bottom: 2px solid var(--colorBorder);
+	box-shadow: 0 2px 10px 3px var(--shadow);
 }
 .header-image {
 	width: 100%;
@@ -98,19 +103,20 @@ header {
 		margin-bottom: 15px;
 	}
 	.nav-bar-link {
-		color: var(--color4);
+		color: var(--color5);
 		text-align: center;
 		font-size: 0.75rem;
-		font-weight: 600;
+		font-weight: 400;
 		font-style: italic;
 		text-decoration: none;
 		margin: 0 10px;
-		padding: 2px 8px;
-		box-shadow: 1px 1px 1px 2px var(--colorBorderTransparent);
-		border-radius: 5px;
+		padding: 3px 10px;
+		border-radius: 10px;
+		transition: color 0.25s ease, box-shadow 0.25s ease;
 	}
 	.nav-bar-link:hover {
-		box-shadow: 1px 1px 8px 2px var(--colorBorderOpaque);
+		color: var(--color4);
+		box-shadow: 1px 1px 15px 2px var(--shadow);
 	}
 	.nav-sm-screen {
 		display: none;
@@ -143,7 +149,7 @@ header {
 /* End Navbar */
 
 
-/* Start Mobile Hamburger Nav */
+/* Start MobileHamburgerNav */
 .nav-mobile-outer-div {
 	width: 100%;
 	position: relative;
@@ -214,7 +220,7 @@ header {
     right: -100%;
     box-shadow: 2px 2px 8px 0 black;
     border-radius: 5px;
-    background-color: #ffc18f8f;
+    background-color: #ffc18fe5;
     transition: all 0.5s ease;
 }
 .nav-mobile-menu {
@@ -224,14 +230,14 @@ header {
 }
 .nav-mobile-menu a {
 	margin: 25px 0;
-	color: var(--color5);
+	color: var(--color4);
 	text-align: center;
 	font-size: 1.25rem;
-	font-weight: 600;
+	font-weight: 400;
 	font-style: italic;
 	text-decoration: none;
 	padding: 2px 8px;
-	box-shadow: 1px 1px 1px 2px var(--shadow);
+	box-shadow: 1px 1px 5px 2px var(--shadow);
 	border-radius: 5px;
 }
 .nav-mobile-menu a:hover {
@@ -247,7 +253,6 @@ header {
 	transition: all 0.5s ease;
     animation: slideOut 0.75s ease;
 }
-
 @keyframes slideIn {
     0% {
         right: -100%;
@@ -256,7 +261,6 @@ header {
         right: 0;
     }
 }
-
 @keyframes slideOut {
 	0% {
 		transition: translateX(0);
@@ -270,4 +274,49 @@ header {
 		display: none;
 	}
 }
-/* End Mobile Hamburger Nav */
+/* End MobileHamburgerNav */
+
+/* Start Homepage */
+.home-main-container {
+	width: 100vw;
+}
+.home-main-first-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.home-left-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 50%;
+	padding-right: 100px;
+}
+.home-left-container img {
+	width: 100%;
+	height: auto;
+	max-width: 580px;
+	box-shadow: 1px 1px 10px 2px var(--shadow);
+}
+.home-welcome {
+	color: var(--color4);
+	font-size: 1rem;
+	font-weight: 500;
+	font-style: italic;
+	max-width: 580px;
+	padding-top: 100px;
+}
+.home-right-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 100px;
+	width: 50%;
+}
+.home-right-container img {
+	box-shadow: 1px 1px 10px 2px var(--shadow);
+}
+
+/* End Homepage */

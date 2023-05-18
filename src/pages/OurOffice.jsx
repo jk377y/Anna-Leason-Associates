@@ -1,10 +1,5 @@
-
-
-
 const OurOffice = () => {
-  return (
-    <div>OurOffice</div>
-  )
-}
+	return <div>OurOffice</div>;
+};
 
-export default OurOffice
+export default OurOffice;
