@@ -19,7 +19,6 @@ const MobileHamburgerNav = () => {
 				<button className={`hamburgerBtn ${isOpen ? "collapsed" : ""}`} aria-label="Toggle Navigation" onClick={toggleNav} >
 					<span className="hamburger"><span></span><span></span><span></span></span></button>
 				<div id='nav-mobile-menu-div' className={`nav-mobile-menu-div ${isOpen ? "show" : "hide"}`}>
-				{/* <div id='nav-mobile-menu-div' className='nav-mobile-menu-div'> */}
 					<div className="nav-mobile-menu">
 						<a href="/">HOME</a>
 						<a href="/therapists">OUR TEAM</a>
