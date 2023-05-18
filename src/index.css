@@ -284,14 +284,14 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top: 50px;
+	margin: 50px 0 200px 0;
 }
 .home-left-container {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
 	width: 50%;
-	padding-right: 100px;
+	padding-right: 150px;
 }
 .home-left-container img {
 	width: 100%;
@@ -312,7 +312,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	padding-left: 100px;
+	padding-left: 150px;
 	width: 50%;
 }
 .home-right-container img {

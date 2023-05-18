@@ -1,5 +1,12 @@
 import teampic from '../assets/images/group/team 2022.jpg'
 import quote1 from '../assets/images/quotes/quote1.jpg'
+// import quote2 from '../assets/images/quotes/quote2.jpg'
+// import quote3 from '../assets/images/quotes/quote3.jpg'
+// import quote4 from '../assets/images/quotes/quote4.jpg'
+// import quote5 from '../assets/images/quotes/quote5.jpg'
+// import quote6 from '../assets/images/quotes/quote6.jpg'
+// import quote7 from '../assets/images/quotes/quote7.jpg'
+// import quote8 from '../assets/images/quotes/quote8.jpg'
 
 const Homepage = () => {
 	return ( 
@@ -11,6 +18,13 @@ const Homepage = () => {
                 </div>
                 <div className="home-right-container">
                     <img src={quote1} alt="team 2022 pic" />
+                    {/* <img src={quote2} alt="team 2022 pic" /> */}
+                    {/* <img src={quote3} alt="team 2022 pic" /> */}
+                    {/* <img src={quote4} alt="team 2022 pic" /> */}
+                    {/* <img src={quote5} alt="team 2022 pic" /> */}
+                    {/* <img src={quote6} alt="team 2022 pic" /> */}
+                    {/* <img src={quote7} alt="team 2022 pic" /> */}
+                    {/* <img src={quote8} alt="team 2022 pic" /> */}
                 </div>
             </div>
         </main>
