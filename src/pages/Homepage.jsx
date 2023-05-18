@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useMemo } from "react";
+import { useEffect, useState, useMemo } from "react";
 import teampic from "../assets/images/group/team 2022.jpg";
 import quote1 from "../assets/images/quotes/quote1.jpg";
 import quote2 from "../assets/images/quotes/quote2.jpg";
@@ -17,7 +17,6 @@ const Homepage = () => {
 		const timer = setTimeout(() => {
 			setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
 		}, 5500);
-
 		return () => clearTimeout(timer);
 	}, [currentIndex, images.length]);
 
