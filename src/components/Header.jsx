@@ -3,11 +3,9 @@ import Navbar from "./Navbar";
 
 const Header = () => {
 	return (
-		<header>
-			<div className="inner-header">
-				<img src={header2a} alt="header2a image"></img>
-				<Navbar />
-			</div>
+		<header className="header">
+			<img className="header-image" src={header2a} alt="header2a image"></img>
+			<Navbar />
 		</header>
 	);
 };
