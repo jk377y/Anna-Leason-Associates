@@ -671,7 +671,12 @@ header {
 	font-weight: 600;
 	font-style: italic;
 }
-
+.therapists-email-link {
+	color: var(--color5);
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 1.15rem;
+}
 @media screen and (min-width: 450px) {
 	.therapist-info {
 		padding: 0 50px;
