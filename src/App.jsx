@@ -6,12 +6,13 @@ import OurTherapists from "./pages/OurTherapists";
 import OurOffice from "./pages/OurOffice";
 import Information from "./pages/Information";
 import Contact from "./pages/Contact";
+
 const App = () => {
 	return (
 		<Router>
 		<>
-			<Header />
 			<MobileHamburgerNav />
+			<Header />
 			<Routes>
 				<Route path="/" element={<Homepage/>} />
 				<Route path="/therapists" element={<OurTherapists />} />
