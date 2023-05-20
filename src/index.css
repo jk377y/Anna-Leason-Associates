@@ -657,6 +657,21 @@ header {
 	list-style-type:square;
 	padding: 0 0 0 50px;
 }
+.therapist-url-link {
+	color: var(--color5);
+	font-weight: 600;
+	text-decoration: underline;
+}
+.therapist-url-link:hover {
+	color: var(--color4);
+	cursor: pointer;
+}
+.therapists-greeting-text {
+	color: var(--color4);
+	font-weight: 600;
+	font-style: italic;
+}
+
 @media screen and (min-width: 450px) {
 	.therapist-info {
 		padding: 0 50px;
