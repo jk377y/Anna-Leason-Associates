@@ -145,12 +145,11 @@ header {
 		display: none;
 		position: absolute;
 		background-color: var(--color2);
-		top: 30px;
 		left: 0;
 		border-radius: 5px;
 		box-shadow: 1px 1px 15px 2px var(--shadow);
 		z-index: 1;
-		margin-top: 13px;
+		margin-top: 4px;
 		width: 125px;
 		list-style: none;
 	
@@ -179,9 +178,6 @@ header {
 		font-size: 0.85rem;
 		margin: 0 25px;
 	}
-	.nav-dropdown-menu li {
-		margin: 15px 0;
-	}
 	.nav-dropdown-menu a {
 		font-size: 0.85rem;
 	}
@@ -199,9 +195,6 @@ header {
 	}
 	.nav-dropdown-menu {
 		width: 150px;
-	}
-	.nav-dropdown-menu {
-		margin-top: 7px;
 	}
 }
 @media screen and (min-width: 1920px) {
@@ -557,27 +550,164 @@ header {
 /*! === !*/
 
 /* Start of Anna */
+.therapist-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--color4);
+	padding: 20px;
+}
+.therapist-info, .therapist-specializations, .therapist-treatments {
+	max-width: 1200px;
+}
 .therapist-info {
 	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 20px;
+	background-color: var(--color1);
+	box-shadow: 1px 1px 5px 2px var(--shadow);
+	border-radius: 15px;
 }
-.therapist-info-text {
-
+.therapist-profile-pic img{
+	width: 250px;
+	border-radius: 50%;
+	margin: 30px 0 0 0;
+	box-shadow: 2px 2px 8px 3px var(--shadow);
 }
 .therapist-logo-title {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
+.therapist-logo-title img {
+	width: 75px;
+	border-radius: 50%;
+	margin-right: 20px;
+}	
 .therapist-title {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 }
-
-
+.therapist-title h2 {
+	font-size: 1.25rem;
+	font-weight: 700;
+	font-style: italic;
+}
+.therapist-title h3 {
+	font-size: 1.15rem;
+	font-weight: 700;
+	font-style: italic;
+}
+.therapist-education {
+	display: flex;
+	flex-direction: column;
+}
+.therapist-education h3 {
+	font-size: 1.15rem;
+	font-weight: 700;
+	text-align: center;
+	font-style: italic;
+}
+.therapist-education p {
+	font-size: 1rem;
+	font-weight: 500;
+}
+.therapist-specializations {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 30px;
+}
+.therapist-specializations h3 {
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+	font-style: italic;
+	color: var(--color4);
+}
+.therapist-specializations h4, .therapist-treatments h4 {
+	font-size: 1.1rem;
+	font-weight: 700;
+	text-align: center;
+	font-style: italic;
+	color: var(--color4);
+}
+.therapist-specializations h5, .therapist-treatments h5 {
+	font-size: 1rem;
+	font-weight: 600;
+	font-style: italic;
+	color: var(--color4);
+}
+.therapist-specializations p {
+	color: var(--color6);
+	font-weight: 400;
+}
+.therapist-specializations ul {
+	list-style-type:square;
+	padding: 0 0 0 50px;
+}
+@media screen and (min-width: 450px) {
+	.therapist-info {
+		padding: 0 50px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.therapist-profile-pic img{
+		width: 275px;
+	}
+	.therapist-title h2 {
+		font-size: 1.35rem;
+	}
+	.therapist-title h3, .therapist-education h3 {
+		font-size: 1.25rem;
+	}
+	.therapist-education p, .therapist-specializations h5, .therapist-treatments h5 {
+		font-size: 1.1rem;
+	}
+	.therapist-specializations {
+		padding: 0 50px;
+	}
+	.therapist-specializations h3 {
+		font-size: 1.3rem;
+	}
+	.therapist-specializations h4, .therapist-treatments h4 {
+		font-size: 1.2rem;
+	}
+	
+}
+@media screen and (min-width: 1024px) {
+	.therapist-info {
+		display: flex;
+		flex-direction: row;
+		padding: 30px;
+	}
+	.therapist-profile-pic {
+		width: 33%;
+		padding: 0 50px;
+	}
+	.therapist-profile-pic img{
+		padding: 0px;
+	}
+	.therapist-info-text {
+		width: 66%;
+		padding: 0 0 0 50px;
+	}
+	.therapist-education {
+		text-align: center;
+	}
+	.therapist-education {
+		margin: 0;
+	}
+	.therapist-specializations {
+		padding: 0 50px;
+	}
+}
 /* End of Anna */
 
 /*! === !*/
