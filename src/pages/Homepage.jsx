@@ -18,7 +18,7 @@ const Homepage = () => {
 				<div className="home-main-first-container">
 					<div className="home-intro-container">
 						<h4 className="home-welcome">
-							Welcome ....
+							<span>Welcome ....</span>
 							<br />
 							<br />
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each of us is born with our special strengths and gifts to offer. Sometimes circumstances of life distance us from that. The goal of therapy is to help one reconnect with that beautiful strength within. We have trained, degreed and experienced psychotherapists that can help you.
@@ -42,14 +42,17 @@ const Homepage = () => {
 			</div>
 			<div className="home-second-container">
 				<div className="home-statement-wrapper">
+					<div className="home-empty-title-bar"></div>
 					<h4 className="home-statements">Counseling is offered for individuals, couples, families, adults and children. However, our counselors <span>do not</span> write reports or testify in court.</h4>
 				</div>
 				<br/>
 				<div className="home-statement-wrapper">
+					<div className="home-empty-title-bar"></div>
 					<h4 className="home-statements">We offer both on site visits and tele therapy. <span>Spanish speaking therapists are available.</span></h4>
 				</div>
 				<br/>
 				<div className="home-statement-wrapper">
+					<div className="home-empty-title-bar"></div>
 					<h4 className="home-statements"><span>Please note:</span> A percentage of profit from this practice is donated monthly to local charity.</h4>
 				</div>
 			</div>

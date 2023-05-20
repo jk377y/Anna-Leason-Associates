@@ -1,4 +1,5 @@
 import headerLogo from './index/Header-2a.png';
+import happyCreature from './index/Happy-Creature.png';
 import team2022 from './group/team 2022.jpg'; 
 import office1 from './office/office 1.jpg';
 import office2 from './office/office 2.jpg'; 
@@ -21,6 +22,7 @@ import teresa from './therapists/teresa.jpg';
 
 const IMAGES = {
     headerLogo,
+    happyCreature,
     office1,
     office2,
     office3,

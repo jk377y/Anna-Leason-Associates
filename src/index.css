@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
 /* Start Global Styling */
 *,
 *::before,
@@ -20,19 +19,39 @@
 	--hover: #ffff00;
 	--success: #00ff00;
 	--error: #ff0000;
-	--shadow: rgba(41, 41, 41, 0.562);
+	--shadow: rgba(27, 27, 27, 0.644);
 	--colorBorderTransparent: #96705198;
 	--colorBorderOpaque: #967051;
 }
 body {
 	font-family: "Poppins", sans-serif;
-	background-color: var(--color1);
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(45deg, #b18561, #d39f74, #ffc18f, #ffc18f, #d39f74, #b18561);
+	background-size: 300% 300%;
+	animation: gradientAnimation 10s ease-in-out infinite;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+@keyframes gradientAnimation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .shadow-frame {
 	box-shadow: 2px 2px 8px 0 var(--color6);
 }
 /* End Global Styling */
 
+/*! === !*/
 
 /* Start Header */
 header {
@@ -83,6 +102,7 @@ header {
 }
 /* End Header */
 
+/*! === !*/
 
 /* Start Navbar */
 .nav-bar-lg-screen {
@@ -98,7 +118,8 @@ header {
 		margin-bottom: 15px;
 	}
 	.nav-bar-link {
-		color: var(--color5);
+		color: var(--color4);
+		box-shadow: 1px 1px 15px 2px var(--shadow);
 		text-align: center;
 		font-size: 0.75rem;
 		font-weight: 400;
@@ -110,11 +131,47 @@ header {
 		transition: color 0.25s ease, box-shadow 0.25s ease;
 	}
 	.nav-bar-link:hover {
-		color: var(--color4);
-		box-shadow: 1px 1px 15px 2px var(--shadow);
+		color: var(--color5);
+		box-shadow: 1px 1px 15px 2px var(--color5);
 	}
 	.nav-sm-screen {
 		display: none;
+	}
+	.nav-dropdown {
+		position: relative;
+		display: block;
+	}
+	.nav-dropdown-menu {
+		display: none;
+		position: absolute;
+		background-color: var(--color2);
+		top: 30px;
+		left: 0;
+		border-radius: 5px;
+		box-shadow: 1px 1px 15px 2px var(--shadow);
+		z-index: 1;
+		margin-top: 13px;
+		width: 125px;
+		list-style: none;
+	
+	}
+	.nav-dropdown:hover .nav-dropdown-menu {
+		display: block;
+	}
+	.nav-dropdown-menu li {
+		margin: 10px 0;
+	}
+	.nav-dropdown-menu a {
+		color: var(--color4);
+		text-decoration: none;
+		font-size: 0.75rem;
+		font-weight: 500;
+		font-style: italic;
+		transition: color 0.3s ease;
+		text-align: center;
+	}
+	.nav-dropdown-menu a:hover {
+		color: var(--color5);
 	}
 }
 @media screen and (min-width: 1024px) {
@@ -122,11 +179,29 @@ header {
 		font-size: 0.85rem;
 		margin: 0 25px;
 	}
+	.nav-dropdown-menu li {
+		margin: 15px 0;
+	}
+	.nav-dropdown-menu a {
+		font-size: 0.85rem;
+	}
 }
 @media screen and (min-width: 1440px) {
 	.nav-bar-link {
 		font-size: 0.95rem;
 		margin: 0 30px;
+	}
+	.nav-dropdown-menu li {
+		margin: 25px 0;
+	}
+	.nav-dropdown-menu a {
+		font-size: 1rem;
+	}
+	.nav-dropdown-menu {
+		width: 150px;
+	}
+	.nav-dropdown-menu {
+		margin-top: 7px;
 	}
 }
 @media screen and (min-width: 1920px) {
@@ -143,6 +218,7 @@ header {
 }
 /* End Navbar */
 
+/*! === !*/
 
 /* Start MobileHamburgerNav */
 .nav-mobile-outer-div {
@@ -224,7 +300,17 @@ header {
 .nav-mobile-menu {
 	display: flex;
 	flex-direction: column;
-	margin: 150px 0 50px 0;
+	align-items: center;
+	margin: 100px 0 50px 0;
+}
+.nav-mobile-menu div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.nav-mobile-menu img {
+	width: 90%;
 }
 .nav-mobile-menu a {
 	margin: 25px 0;
@@ -276,6 +362,7 @@ header {
 }
 /* End MobileHamburgerNav */
 
+/*! === !*/
 
 /* Start Homepage */
 .home-main-container {
@@ -310,11 +397,15 @@ header {
 	box-shadow: 1px 1px 5px 2px var(--shadow);
 	border-radius: 10px;
 }
+.home-welcome span {
+	font-size: 1.5rem;
+}
 .home-team-pic {
 	color: var(--color4);
 	font-size: 1.5rem;
 	font-weight: 800;
 	font-style: italic;
+	text-decoration: underline;
 }
 .home-quote-container {
 	position: relative;
@@ -324,7 +415,6 @@ header {
 	justify-content: center;
 	position: relative;
 	width: 100%;
-	
 }
 .home-quote-frame img {
 	position: absolute;
@@ -361,10 +451,15 @@ header {
 	background-color: var(--color2);
 	box-shadow: 1px 1px 5px 2px var(--shadow);
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: column;
 	max-width: 580px;
 	margin: 40px 0 0 0;
+}
+.home-empty-title-bar {
+	height: 30px;
+	background-color: var(--color7);
+	width: 100%;
+	border-radius: 10px 10px 0 0;
 }
 .home-statements {
 	padding: 15px;
@@ -427,7 +522,7 @@ header {
 	}
 	.home-statement-wrapper {
 		display: flex;
-		justify-content: center;
+		/* justify-content: center; */
 		align-items: center;
 		width: 40%;
 		height: 150px;
@@ -452,3 +547,38 @@ header {
 	}
 }
 /* End Homepage */
+
+/*! === !*/
+
+/* Start OurTherapists */
+
+/* End OurTherapists */
+
+/*! === !*/
+
+/* Start of Anna */
+.therapist-info {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.therapist-info-text {
+
+}
+.therapist-logo-title {
+	display: flex;
+	flex-direction: row;
+}
+.therapist-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+
+/* End of Anna */
+
+/*! === !*/
+

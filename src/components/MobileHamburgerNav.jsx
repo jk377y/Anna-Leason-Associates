@@ -1,4 +1,5 @@
 import { useState } from "react";
+import IMAGES from '../assets/images/index';
 
 const MobileHamburgerNav = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,9 @@ const MobileHamburgerNav = () => {
 					<span className="hamburger"><span></span><span></span><span></span></span></button>
 				<div id='nav-mobile-menu-div' className={`nav-mobile-menu-div ${isOpen ? "show" : "hide"}`}>
 					<div className="nav-mobile-menu">
+						<div>
+							<img src={IMAGES.headerLogo} alt="logo" />
+						</div>
 						<a href="/">HOME</a>
 						<a href="/therapists">OUR TEAM</a>
 						<a href="/office">OUR OFFICE</a>
