@@ -117,6 +117,11 @@ header {
 		flex: 1;
 		margin-bottom: 15px;
 	}
+	.nav-dropdown-anchor-link {
+		color: var(--color4);
+		text-decoration: none;
+		text-align: center;
+	}
 	.nav-bar-link {
 		color: var(--color4);
 		box-shadow: 1px 1px 15px 2px var(--shadow);
@@ -549,7 +554,7 @@ header {
 
 /*! === !*/
 
-/* Start of Anna */
+/* Start of Therapists */
 .therapist-container {
 	display: flex;
 	flex-direction: column;
@@ -708,7 +713,7 @@ header {
 		padding: 0 50px;
 	}
 }
-/* End of Anna */
+/* End of Therapists */
 
 /*! === !*/
 
