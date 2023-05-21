@@ -34,7 +34,7 @@ body {
 	width: 100%;
 	/* background: linear-gradient(45deg, #2a615c, #3b3b3b, #2a615c, #3b3b3b, #2a615c, #3b3b3b); */
 	/* background-image: url(./assets/images/index/abstract-rainbow.png); */
-	background-image: url(./assets/images/index/dark-green-blue-abstract-background.png);
+	background-image: url(./assets/images/index/dark-green-blue-abstract-background.avif);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -603,7 +603,7 @@ header {
 	padding: 20px;
 }
 .therapist-info, .therapist-specializations, .therapist-treatments {
-	max-width: 1200px;
+	max-width: 1100px;
 }
 .therapist-info {
 	margin-top: 50px;
@@ -940,3 +940,9 @@ header {
 	}
 }
 /* End Information */
+
+/*! === !*/
+
+/* Start Contact */
+
+/* End Contact */

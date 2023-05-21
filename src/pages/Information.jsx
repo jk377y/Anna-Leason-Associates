@@ -23,7 +23,7 @@ const Information = () => {
 					</div>
 					<div className="info-paperwork-container">
 						<h3>Required Paperwork</h3>
-						<p>Before your first visit, please complete and submit required information online by clicking <a href="https://hipaa.jotform.com/203186077433051" className="info-comm-link" target='_blank' rel="noreferrer">HERE</a></p>
+						<p>Before your first visit, please complete and submit required information online by clicking <a href="https://hipaa.jotform.com/203186077433051" className="info-comm-link" target='_blank' rel="noreferrer" title="Hippa form for onboarding by Jotform">HERE</a></p>
 					</div>
 				</div>
 			</div>
