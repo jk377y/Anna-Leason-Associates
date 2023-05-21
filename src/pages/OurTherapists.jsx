@@ -40,5 +40,4 @@ const OurTherapists = () => {
 		</>
 	);
 };
-
 export default OurTherapists;

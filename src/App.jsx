@@ -9,8 +9,7 @@ import Leann from "./pages/Therapists/Leann";
 import Reneka from "./pages/Therapists/Reneka";
 import Tammy from "./pages/Therapists/Tammy";
 import Teresa from "./pages/Therapists/Teresa";
-
-import OurOffice from "./pages/OurOffice";
+import Office from "./pages/Office";
 import Information from "./pages/Information";
 import Contact from "./pages/Contact";
 
@@ -29,7 +28,7 @@ const App = () => {
 					<Route path="/therapists/desire" element={<Desire />} />
 					<Route path="/therapists/tammy" element={<Tammy />} />
 					<Route path="/therapists/reneka" element={<Reneka />} />
-				<Route path="/office" element={<OurOffice />} />
+				<Route path="/office" element={<Office />} />
 				<Route path="/information" element={<Information />} />
 				<Route path="/contact" element={<Contact />} />
 			</Routes>
@@ -37,5 +36,4 @@ const App = () => {
 		</Router>
 	);
 };
-
 export default App;

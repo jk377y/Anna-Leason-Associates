@@ -35,4 +35,4 @@ const MobileHamburgerNav = () => {
 		</>
 	)
 }
-export default MobileHamburgerNav
+export default MobileHamburgerNav;

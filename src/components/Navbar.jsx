@@ -1,9 +1,6 @@
 
-
-
 const Navbar = () => {
-    
-	return (    
+    return (    
         <>
             <nav id="nav-bar-lg-screen" className="nav-bar-lg-screen">
                 <a href="/" className="nav-bar-link">HOME</a>
@@ -24,5 +21,4 @@ const Navbar = () => {
         </>
 	);
 };
-
 export default Navbar;
