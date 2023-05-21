@@ -3,11 +3,8 @@ import IMAGES from "../../assets/images/index";
 const Teresa = () => {
   return (
 		<>
-		
-		
 			<div className="therapist-container">
 				<div className="therapist-info">
-					
 					<div className="therapist-profile-pic">
 						<img src={IMAGES.teresa} alt="Anna" />
 					</div>
@@ -52,5 +49,4 @@ const Teresa = () => {
 		</>
 	);
 }
-
-export default Teresa
+export default Teresa;

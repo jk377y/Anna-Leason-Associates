@@ -1,12 +1,10 @@
 import IMAGES from "../../assets/images/index";
+
 const Reneka = () => {
   return (
 		<>
-		
-		
 			<div className="therapist-container">
 				<div className="therapist-info">
-					
 					<div className="therapist-profile-pic">
 						<img src={IMAGES.reneka} alt="Anna" />
 					</div>
@@ -57,5 +55,4 @@ const Reneka = () => {
 		</>
 	);
 }
-
-export default Reneka
+export default Reneka;

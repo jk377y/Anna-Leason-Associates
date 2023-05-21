@@ -3,11 +3,8 @@ import IMAGES from "../../assets/images/index";
 const Anna = () => {
 	return (
 		<>
-		
-		
 			<div className="therapist-container">
 				<div className="therapist-info">
-					
 					<div className="therapist-profile-pic">
 						<img src={IMAGES.anna} alt="Anna" />
 					</div>
@@ -78,5 +75,4 @@ const Anna = () => {
 		</>
 	);
 };
-
 export default Anna;

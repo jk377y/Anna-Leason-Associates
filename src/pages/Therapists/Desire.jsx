@@ -3,11 +3,8 @@ import IMAGES from "../../assets/images/index";
 const Desire = () => {
   return (
     <>
-		
-		
 			<div className="therapist-container">
 				<div className="therapist-info">
-					
 					<div className="therapist-profile-pic">
 						<img src={IMAGES.desire} alt="Anna" />
 					</div>
@@ -69,5 +66,4 @@ const Desire = () => {
 		</>
   )
 }
-
-export default Desire
+export default Desire;

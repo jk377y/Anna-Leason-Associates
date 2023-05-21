@@ -1,4 +1,5 @@
 import IMAGES from "../../assets/images/index";
+
 const Leann = () => {
 	return (
 		<>
@@ -44,12 +45,10 @@ const Leann = () => {
 					<br />
 					<p>&nbsp;&nbsp;&nbsp;I counsel children, adolescents, and adults and specialize in treating individuals with anxiety, depression, trauma/PTSD, ADHD, grief and loss, relationship problems, autism, and relationship problems.</p>
 				</div>
-
 				<br />
 				<br />
 			</div>
 		</>
 	);
 };
-
 export default Leann;
