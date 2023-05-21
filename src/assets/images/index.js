@@ -43,7 +43,7 @@ const IMAGES = {
     leann,
     reneka,
     tammy,
-    teresa
+    teresa,
 }
 
 export default IMAGES;
