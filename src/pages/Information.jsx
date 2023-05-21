@@ -17,7 +17,6 @@ const Information = () => {
 					<br/>
 					<h4>Serving children and adults</h4>
 				</div>
-
 				<div className="info-img-paperwork-container">
 					<div className="info-img-container">
 						<img src={IMAGES.officeGIF}></img>
@@ -27,11 +26,8 @@ const Information = () => {
 						<p>Before your first visit, please complete and submit required information online by clicking <a href="https://hipaa.jotform.com/203186077433051" className="info-comm-link" target='_blank' rel="noreferrer">HERE</a></p>
 					</div>
 				</div>
-
-
 			</div>
 		</>
 	);
 };
-
 export default Information;

@@ -1,6 +1,7 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header";
 import MobileHamburgerNav from "./components/MobileHamburgerNav";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import OurTherapists from "./pages/OurTherapists";
 import Anna from "./pages/Therapists/Anna";
