@@ -1,11 +1,11 @@
 import headerLogo from './index/Header-2a.png';
 import happyCreature from './index/Happy-Creature.png';
 import team2022 from './group/team 2022.jpg'; 
-import office1 from './office/office1.jpg';
-import office2 from './office/office2.jpg'; 
-import office3 from './office/office3.jpg'; 
-import office4 from './office/office4.jpg';
-import officeGIF from './office/office.gif'; 
+import office1 from './office/Office1.jpg';
+import office2 from './office/Office2.jpg'; 
+import office3 from './office/Office3.jpg'; 
+import office4 from './office/Office4.jpg';
+import officeGIF from './office/Office.gif'; 
 import quote1 from './quotes/quote1.jpg';
 import quote2 from './quotes/quote2.jpg';
 import quote3 from './quotes/quote3.jpg';
