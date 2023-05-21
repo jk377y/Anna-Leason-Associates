@@ -1,3 +1,4 @@
+import plants from "./index/plants.jpg";
 import headerLogo from "./index/Header-2a.png";
 import happyCreature from "./index/Happy-Creature.png";
 import team2022 from "./group/team2022.jpg";
@@ -22,6 +23,7 @@ import tammy from "./therapists/Tammy.jpg";
 import teresa from "./therapists/Teresa.jpg";
 
 const IMAGES = {
+	plants,
 	headerLogo,
 	happyCreature,
 	officeGIF,
