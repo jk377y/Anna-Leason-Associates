@@ -16,7 +16,9 @@ const Leann = () => {
 								<h4>Supervised by Denise Smith, M.Ed., LPC, LPC-S</h4>
 								<h3>Contact</h3>
 								<h3>at</h3>
-								<h3>903-767-0435</h3>
+								<h3><a className="therapist-comm-link"href="tel:903-767-0435">903-767-0435</a></h3>
+								<h3>or</h3>
+								<h3><a  className="therapist-comm-link" href='mailto:leann@gmail.com'>Email Me</a></h3>
 							</div>
 						</div>
 						<br />

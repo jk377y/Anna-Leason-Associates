@@ -18,9 +18,9 @@ const Reneka = () => {
 								<h2>Reneka D. Clark, MSW, LCSW-BACS, CCTP</h2>
 								<h3>Contact</h3>
 								<h3>at</h3>
-								<h3>318-379-6504</h3>
+								<h3><a className="therapist-comm-link"href="tel:318-379-6504">318-379-6504</a></h3>
 								<h3>or</h3>
-								<h3><a  className="therapists-email-link" href='mailto:rdclarklcsw@therapyemail.com'> - Email Me - </a></h3>
+								<h3><a  className="therapist-comm-link" href='mailto:rdclarklcsw@therapyemail.com'>Email Me</a></h3>
 							</div>
 						</div>
 						<br/>

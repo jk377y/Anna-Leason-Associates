@@ -19,7 +19,9 @@ const Desire = () => {
 								<h2>Desiré Martinez, LCSW-S</h2>
 								<h3>Contact</h3>
 								<h3>at</h3>
-								<h3>281.671.7073</h3>
+								<h3><a className="therapist-comm-link"href="tel:281.671.7073">281.671.7073</a></h3>
+								<h3>or</h3>
+								<h3><a  className="therapist-comm-link" href='mailto:dmartinez@counselingmail.com'>Email Me</a></h3>
 							</div>
 						</div>
 						<br/>

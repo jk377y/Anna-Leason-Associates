@@ -19,7 +19,9 @@ const Tammy = () => {
 								<h2>Tammy Davis, LCSW</h2>
 								<h3>Contact</h3>
 								<h3>at</h3>
-								<h3>979-398-2745</h3>
+								<h3><a className="therapist-comm-link"href="tel:979-398-2745">979-398-2745</a></h3>
+								<h3>or</h3>
+								<h3><a  className="therapist-comm-link" href='mailto:tammydavis214@counselingmail.com'>Email Me</a></h3>
 							</div>
 						</div>
 						<br/>
@@ -41,7 +43,7 @@ const Tammy = () => {
 					<br/>
 					<br/>
 				<div className="therapist-specializations">
-					<p>&nbsp;&nbsp;&nbsp;<span className="therapists-greeting-text">Hi!</span> I am a Licensed Clinical Social Worker with over 20 years experience as an MA, CNA and 6 years of experience meeting the needs of clients in social work settings who struggle with depression, anxiety, addictions, trauma, and family relationships. I specialize in working with single moms with children and those with life event adjustments. As a licensed social worker, I utilize a solution-focused approach along with cognitive and dialectical behavioral therapeutic techniques to uncover, process and assist my clients with managing unwanted symptoms that are keeping you from realizing your personal goals in life. I have worked with individuals, couples, and families in various psychotherapy settings as a clinician. My overall approach includes compassion, empathy, and a deep desire to ensuring my clients have a safe environment to experience positive life changes and live a fulfilling life. I also like to meet clients &quot;where they are at,&quot; and at a pace that works best for them in their life&apos;s journey. I look forward to meeting and working with you. See you Soon!</p>
+					<p>&nbsp;&nbsp;&nbsp;<span className="therapist-greeting-text">Hi!</span> I am a Licensed Clinical Social Worker with over 20 years experience as an MA, CNA and 6 years of experience meeting the needs of clients in social work settings who struggle with depression, anxiety, addictions, trauma, and family relationships. I specialize in working with single moms with children and those with life event adjustments. As a licensed social worker, I utilize a solution-focused approach along with cognitive and dialectical behavioral therapeutic techniques to uncover, process and assist my clients with managing unwanted symptoms that are keeping you from realizing your personal goals in life. I have worked with individuals, couples, and families in various psychotherapy settings as a clinician. My overall approach includes compassion, empathy, and a deep desire to ensuring my clients have a safe environment to experience positive life changes and live a fulfilling life. I also like to meet clients &quot;where they are at,&quot; and at a pace that works best for them in their life&apos;s journey. I look forward to meeting and working with you. See you Soon!</p>
 					<br/>
 					<br/>
 				</div>

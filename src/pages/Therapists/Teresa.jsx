@@ -19,7 +19,9 @@ const Teresa = () => {
 								<h2>Teresa Linnemann, LMFT</h2>
 								<h3>Contact</h3>
 								<h3>at</h3>
-								<h3>346-298-9500</h3>
+								<h3><a className="therapist-comm-link"href="tel:346-298-9500">346-298-9500</a></h3>
+								<h3>or</h3>
+								<h3><a  className="therapist-comm-link" href='mailto:teresalinnemann@counselingmail.com'>Email Me</a></h3>
 							</div>
 						</div>
 						<br/>

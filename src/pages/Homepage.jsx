@@ -53,7 +53,7 @@ const Homepage = () => {
 				<br/>
 				<div className="home-statement-wrapper">
 					<div className="home-empty-title-bar"></div>
-					<h4 className="home-statements"><span>Please note:</span> A percentage of profit from this practice is donated monthly to local charity.</h4>
+					<h4 className="home-statements"><span>Please note :</span> A percentage of profit from this practice is donated monthly to local charity.</h4>
 				</div>
 			</div>
 		</main>

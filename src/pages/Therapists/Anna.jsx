@@ -19,7 +19,9 @@ const Anna = () => {
 								<h2>Anna Leason, LCSW</h2>
 								<h3>Contact</h3>
 								<h3>at</h3>
-								<h3>713-303-9627</h3>
+								<h3><a className="therapist-comm-link"href="tel:713-303-9627">713-303-9627</a></h3>
+								<h3>or</h3>
+								<h3><a className="therapist-comm-link" href='mailto:annaleason7@gmail.com'>Email Me</a></h3>
 							</div>
 						</div>
 						<br/>
@@ -42,7 +44,7 @@ const Anna = () => {
 					<br/>
 					<br/>
 				<div className="therapist-specializations">
-					<h3>Anna specializes in:</h3>
+					<h3>SPECIALIZATIONS</h3>
 					<br/>
 					<br/>
 					<h4>Anxiety Issues --</h4>
