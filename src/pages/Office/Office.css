@@ -1,0 +1,59 @@
+/* Start Office */
+.office-outer-container {
+	margin: 75px 0 100px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.office-info-container {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px 0;
+}
+.office-info-container h3 {
+	color: var(--color5);
+	font-weight: 600;
+}
+.office-info-container ul {
+	padding-left: 20px;
+}
+.office-info-container p, .office-info-container li {
+	color: var(--color4);
+}
+.office-comm-link {
+	color: var(--color4);
+	font-weight: 600;
+}
+.office-comm-link:hover {
+	color: var(--color5);
+}
+.office-internal-pics {
+	margin: 40px 0 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	max-width: 90%;
+}
+.office-internal-pics img {
+	max-width: 90%;
+	box-shadow: 2px 2px 8px 3px var(--shadow);
+}
+.office-map-container {
+	margin: 40px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 1000px;
+}
+.office-google-map {
+	width: 90%;
+	max-width: 1000px;
+	height: 500px;
+}
+/* End Office */

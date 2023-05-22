@@ -1,6 +1,7 @@
-import IMAGES from "../assets/images/index";
+import IMAGES from "../../assets/images/index";
+import "./AllTherapists.css";
 
-const OurTherapists = () => {
+const AllTherapists = () => {
 	return (
 		<>
 			<div className="all-therapists-pics-container">
@@ -40,4 +41,4 @@ const OurTherapists = () => {
 		</>
 	);
 };
-export default OurTherapists;
+export default AllTherapists;

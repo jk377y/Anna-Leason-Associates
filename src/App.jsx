@@ -1,18 +1,18 @@
 // import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import MobileHamburgerNav from "./components/MobileHamburgerNav";
-import Homepage from "./pages/Homepage";
-import OurTherapists from "./pages/OurTherapists";
+import Header from "./components/Header/Header";
+import MobileHamburgerNav from "./components/MobileHamburgerNav/MobileHamburgerNav";
+import Homepage from "./pages/Homepage/Homepage";
+import AllTherapists from "./pages/AllTherapists/AllTherapists";
 import Anna from "./pages/Therapists/Anna";
 import Desire from "./pages/Therapists/Desire";
 import Leann from "./pages/Therapists/Leann";
 import Reneka from "./pages/Therapists/Reneka";
 import Tammy from "./pages/Therapists/Tammy";
 import Teresa from "./pages/Therapists/Teresa";
-import Office from "./pages/Office";
-import Information from "./pages/Information";
-import Contact from "./pages/Contact";
+import Office from "./pages/Office/Office";
+import Information from "./pages/Information/Information";
+import Contact from "./pages/Contact/Contact";
 
 const App = () => {
 	return (
@@ -22,7 +22,7 @@ const App = () => {
 			<Header />
 			<Routes>
 				<Route path="/" element={<Homepage/>} />
-				<Route path="/therapists" element={<OurTherapists />} />
+				<Route path="/therapists" element={<AllTherapists />} />
 					<Route path="/therapists/anna" element={<Anna />} />
 					<Route path="/therapists/teresa" element={<Teresa />} />
 					<Route path="/therapists/leann" element={<Leann />} />

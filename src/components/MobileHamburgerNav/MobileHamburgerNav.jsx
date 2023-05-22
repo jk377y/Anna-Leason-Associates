@@ -1,5 +1,6 @@
 import { useState } from "react";
-import IMAGES from '../assets/images/index';
+import IMAGES from '../../assets/images/index';
+import "./MobileHamburgerNav.css";
 
 const MobileHamburgerNav = () => {
 	const [isOpen, setIsOpen] = useState(false);

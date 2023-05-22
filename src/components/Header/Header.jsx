@@ -1,5 +1,6 @@
-import IMAGES from "../assets/images";
-import Navbar from "./Navbar";
+import IMAGES from "../../assets/images";
+import "./Header.css";
+import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
 	return (

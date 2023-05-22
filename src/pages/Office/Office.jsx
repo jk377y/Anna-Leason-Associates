@@ -1,4 +1,5 @@
-import IMAGES from "../assets/images/index";
+import IMAGES from "../../assets/images/index";
+import "./Office.css";
 
 const Office = () => {
 	return (

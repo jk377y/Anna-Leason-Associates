@@ -1,4 +1,5 @@
-import IMAGES from '../assets/images/index'
+import IMAGES from '../../assets/images/index'
+import './Information.css'
 
 const Information = () => {
 	return (

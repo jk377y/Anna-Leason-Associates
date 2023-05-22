@@ -1,5 +1,6 @@
 import { useEffect, useState, useMemo } from "react";
-import IMAGES from '../assets/images/index';
+import IMAGES from '../../assets/images/index';
+import "./Homepage.css";
 
 const Homepage = () => {
 	const [currentIndex, setCurrentIndex] = useState(0);

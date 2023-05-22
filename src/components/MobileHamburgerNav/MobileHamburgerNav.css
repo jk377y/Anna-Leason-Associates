@@ -1,0 +1,141 @@
+/* Start MobileHamburgerNav */
+.nav-mobile-outer-div {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 100;
+}
+.hamburgerBtn {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	z-index: 101;
+}
+.hamburgerBtn:focus,
+.hamburgerBtn:hover {
+	outline: none;
+}
+.hamburger {
+	display: inline-block;
+	width: 20px;
+	height: 3px;
+	background-color: #ffffff;
+	position: relative;
+	transition: all 0.3s ease;
+	border-radius: 2px;
+}
+.hamburger:before,
+.hamburger:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	position: absolute;
+	left: 0;
+	transition: all 0.3s ease;
+	border-radius: 2px;
+}
+.hamburger:before {
+	top: -7px;
+}
+.hamburger:after {
+	bottom: -7px;
+}
+.hamburgerBtn.collapsed .hamburger {
+	transform: rotate(0deg);
+	background-color: rgba(255, 0, 0, 0);
+}
+.hamburgerBtn.collapsed .hamburger:before {
+	top: 0;
+	transform: rotate(45deg);
+	rotate: 180deg;
+	background-color: red;
+}
+.hamburgerBtn.collapsed .hamburger:after {
+	bottom: 0;
+	transform: rotate(-45deg);
+	rotate: -180deg;
+	background-color: red;
+}
+.nav-mobile-menu-div {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0px;
+	right: -110vw;
+	border-radius: 5px;
+	/* background-color: #204946; */
+	background-color: var(--window);
+	transition: all 0.5s ease;
+}
+.nav-mobile-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 100px 0 50px 0;
+}
+.nav-mobile-menu div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.nav-mobile-menu img {
+	width: 90%;
+}
+.nav-mobile-menu a {
+	margin: 25px 0;
+	color: var(--color4);
+	text-align: center;
+	font-size: 1.25rem;
+	font-weight: 400;
+	font-style: italic;
+	text-decoration: none;
+	padding: 2px 8px;
+	box-shadow: 1px 1px 6px 1px var(--color3);
+	border-radius: 5px;
+}
+.nav-mobile-menu a:hover {
+	color: var(--color4);
+}
+.show {
+	right: 0;
+	transition: all 0.5s ease;
+	animation: slideIn 0.75s ease;
+}
+.hide {
+	right: calc(-100% - 10px);
+	transition: all 0.5s ease;
+	animation: slideOut 0.75s ease;
+}
+@keyframes slideIn {
+	0% {
+		right: -110vw;
+	}
+	100% {
+		right: 0;
+	}
+}
+@keyframes slideOut {
+	0% {
+		transition: translateX(0);
+	}
+	100% {
+		transition: translateX(-110vw);
+	}
+}
+@media screen and (min-width: 768px) {
+	.hamburgerBtn,
+	.nav-mobile-menu-div,
+	.nav-mobile-menu {
+		display: none;
+	}
+}
+/* End MobileHamburgerNav */

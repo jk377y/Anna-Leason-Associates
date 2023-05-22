@@ -1,0 +1,194 @@
+/* Start of Therapists */
+.therapist-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--color4);
+	padding: 20px;
+}
+.therapist-info, .therapist-specializations, .therapist-treatments {
+	max-width: 1100px;
+}
+.therapist-info {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	/* background-color: var(--color1); */
+	background-color: var(--window2);
+	box-shadow: 1px 1px 5px 2px var(--shadow2);
+	/* border-radius: 15px; */
+}
+.therapist-profile-pic img{
+	width: 250px;
+	border-radius: 50%;
+	margin: 30px 0 0 0;
+	box-shadow: 2px 2px 8px 3px var(--shadow2);
+}
+.therapist-logo-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.therapist-logo-title img {
+	width: 75px;
+	border-radius: 50%;
+}	
+.therapist-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.therapist-title h2 {
+	font-size: 1.25rem;
+	font-weight: 700;
+	font-style: italic;
+}
+.therapist-title h3 {
+	font-size: 1.15rem;
+	font-weight: 700;
+	font-style: italic;
+}
+.therapist-education {
+	display: flex;
+	flex-direction: column;
+}
+.therapist-education h3 {
+	font-size: 1.15rem;
+	font-weight: 700;
+	text-align: center;
+	font-style: italic;
+	color: var(--color5);
+}
+.therapist-education p {
+	font-size: 1rem;
+	font-weight: 500;
+}
+.therapist-specializations {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 30px;
+}
+.therapist-specializations h3 {
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+	font-style: italic;
+	color: var(--color5);
+}
+.therapist-specializations h4, .therapist-treatments h4 {
+	font-size: 1.1rem;
+	font-weight: 700;
+	text-align: center;
+	font-style: italic;
+	color: var(--color5);
+}
+.therapist-specializations h5, .therapist-treatments h5 {
+	font-size: 1rem;
+	font-weight: 600;
+	font-style: italic;
+	color: var(--color4);
+}
+.therapist-specializations p {
+	color: var(--color4);
+	font-weight: 400;
+}
+.therapist-specializations ul {
+	list-style-type:square;
+	padding: 0 0 0 50px;
+}
+.therapist-url-link {
+	color: var(--success);
+	font-weight: 600;
+	text-decoration: underline;
+}
+.therapist-url-link:hover {
+	color: var(--color5);
+	cursor: pointer;
+}
+.therapist-greeting-text {
+	color: var(--color4);
+	font-weight: 600;
+	font-style: italic;
+}
+.therapist-comm-link {
+	color: var(--color4);
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 1.15rem;
+}
+.therapist-comm-link:hover {
+	color: var(--color5);
+	text-decoration: underline;
+	cursor: pointer;
+}
+@media screen and (min-width: 450px) {
+	.therapist-info {
+		padding: 0 50px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.therapist-logo-title {
+		flex-direction: row;
+	}
+	.therapist-logo-title img {
+		width: 20%;
+		margin-right: 20px;
+	}	
+	.therapist-profile-pic img{
+		width: 275px;
+	}
+	.therapist-title h2 {
+		font-size: 1.35rem;
+	}
+	.therapist-title h3, .therapist-education h3 {
+		font-size: 1.25rem;
+	}
+	.therapist-education p, .therapist-specializations h5, .therapist-treatments h5 {
+		font-size: 1.1rem;
+	}
+	.therapist-specializations {
+		padding: 0 50px;
+	}
+	.therapist-specializations h3 {
+		font-size: 1.3rem;
+	}
+	.therapist-specializations h4, .therapist-treatments h4 {
+		font-size: 1.2rem;
+	}
+	
+}
+@media screen and (min-width: 1024px) {
+	.therapist-info {
+		display: flex;
+		flex-direction: row;
+		padding: 30px;
+	}
+	.therapist-profile-pic {
+		width: 33%;
+		padding: 0 50px;
+	}
+	.therapist-profile-pic img{
+		margin-left: 20%;
+	}
+	.therapist-info-text {
+		width: 66%;
+		padding: 0 0 0 50px;
+	}
+	.therapist-education {
+		text-align: center;
+	}
+	.therapist-education {
+		margin: 0;
+	}
+	.therapist-specializations {
+		padding: 0 20px;
+	}
+}
+/* End of Therapists */

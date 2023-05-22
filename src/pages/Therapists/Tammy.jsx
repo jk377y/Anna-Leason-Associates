@@ -1,4 +1,5 @@
 import IMAGES from "../../assets/images/index";
+import "./Therapists.css";
 
 const Tammy = () => {
   return (
