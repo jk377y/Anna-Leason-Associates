@@ -7,12 +7,12 @@ const Desire = () => {
 			<div className="therapist-container">
 				<div className="therapist-info">
 					<div className="therapist-profile-pic">
-						<img src={IMAGES.desire} alt="Anna" />
+						<img src={IMAGES.desire} loading="lazy" alt="Anna" />
 					</div>
 					<br/>
 					<div className="therapist-info-text">
 						<div className="therapist-logo-title">
-							<img src={IMAGES.happyCreature} alt="happy creature pic" />
+							<img src={IMAGES.happyCreature} loading="lazy" alt="happy creature pic" />
 							<div className="therapist-title">
 								<h2>Desiré Martinez, LCSW-S</h2>
 								<h3>Contact</h3>

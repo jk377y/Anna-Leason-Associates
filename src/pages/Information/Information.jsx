@@ -20,7 +20,7 @@ const Information = () => {
 				</div>
 				<div className="info-img-paperwork-container">
 					<div className="info-img-container">
-						<img src={IMAGES.officeGIF}></img>
+						<img src={IMAGES.officeGIF} loading="lazy" alt="office images gif"></img>
 					</div>
 					<div className="info-paperwork-container">
 						<h3>Required Paperwork</h3>

@@ -7,12 +7,12 @@ const Leann = () => {
 			<div className="therapist-container">
 				<div className="therapist-info">
 					<div className="therapist-profile-pic">
-						<img src={IMAGES.leann} alt="Anna" />
+						<img src={IMAGES.leann} loading="lazy" alt="Anna" />
 					</div>
 					<br />
 					<div className="therapist-info-text">
 						<div className="therapist-logo-title">
-							<img src={IMAGES.happyCreature} alt="happy creature pic" />
+							<img src={IMAGES.happyCreature} loading="lazy" alt="happy creature pic" />
 							<div className="therapist-title">
 								<h2>Leann Jenkins, LPC ASSOCIATE</h2>
 								<h4>Supervised by Denise Smith, M.Ed., LPC, LPC-S</h4>

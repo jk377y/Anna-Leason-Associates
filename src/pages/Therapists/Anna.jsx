@@ -7,12 +7,12 @@ const Anna = () => {
 			<div className="therapist-container">
 				<div className="therapist-info">
 					<div className="therapist-profile-pic">
-						<img src={IMAGES.anna} alt="Anna" />
+						<img src={IMAGES.anna} alt="Anna" loading="lazy"/>
 					</div>
 					<br/>
 					<div className="therapist-info-text">
 						<div className="therapist-logo-title">
-							<img src={IMAGES.happyCreature} alt="happy creature pic" />
+							<img src={IMAGES.happyCreature} loading="lazy" alt="happy creature pic" />
 							<div className="therapist-title">
 								<h2>Anna Leason, LCSW</h2>
 								<h3>Contact</h3>

@@ -30,12 +30,12 @@ const Homepage = () => {
 						<br />
 						<h4 className="home-team-pic">Our Team</h4>
 						<br/>
-						<img src={IMAGES.team2022} alt="team 2022 pic" />
+						<img src={IMAGES.team2022} loading="lazy" alt="team 2022 pic" />
 					</div>
 					<div className="home-quote-container">
 						<div className="home-quote-frame">
 							{images.map((image, index) => (
-								<img key={index} src={image} alt={image} className={index === currentIndex ? "home-fade-in" : "home-fade-out"} />
+								<img key={index} src={image} alt={image} loading="lazy" className={index === currentIndex ? "home-fade-in" : "home-fade-out"} />
 							))}
 						</div>
 					</div>
