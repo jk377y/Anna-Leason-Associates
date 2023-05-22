@@ -1,29 +1,27 @@
-import plants from "./index/plants.jpg";
 import headerLogo from "./index/Header-2a.avif";
-import happyCreature from "./index/Happy-Creature.png";
+import happyCreature from "./index/Happy-Creature.avif";
 import team2022 from "./group/team2022.avif";
-import office1 from "./office/Office1.jpg";
-import office2 from "./office/Office2.jpg";
-import office3 from "./office/Office3.jpg";
-import office4 from "./office/Office4.jpg";
+import office1 from "./office/Office1.avif";
+import office2 from "./office/Office2.avif";
+import office3 from "./office/Office3.avif";
+import office4 from "./office/Office4.avif";
 import officeGIF from "./office/Office.gif";
-import quote1 from "./quotes/quote1.jpg";
-import quote2 from "./quotes/quote2.jpg";
-import quote3 from "./quotes/quote3.jpg";
-import quote4 from "./quotes/quote4.jpg";
-import quote5 from "./quotes/quote5.jpg";
-import quote6 from "./quotes/quote6.jpg";
-import quote7 from "./quotes/quote7.jpg";
-import quote8 from "./quotes/quote8.jpg";
-import anna from "./therapists/Anna.jpg";
-import desire from "./therapists/Desire.jpg";
-import leann from "./therapists/Leann.jpg";
-import reneka from "./therapists/Reneka.jpg";
-import tammy from "./therapists/Tammy.jpg";
-import teresa from "./therapists/Teresa.jpg";
+import quote1 from "./quotes/quote1.avif";
+import quote2 from "./quotes/quote2.avif";
+import quote3 from "./quotes/quote3.avif";
+import quote4 from "./quotes/quote4.avif";
+import quote5 from "./quotes/quote5.avif";
+import quote6 from "./quotes/quote6.avif";
+import quote7 from "./quotes/quote7.avif";
+import quote8 from "./quotes/quote8.avif";
+import anna from "./therapists/Anna.avif";
+import desire from "./therapists/Desire.avif";
+import leann from "./therapists/Leann.avif";
+import reneka from "./therapists/Reneka.avif";
+import tammy from "./therapists/Tammy.avif";
+import teresa from "./therapists/Teresa.avif";
 
 const IMAGES = {
-	plants,
 	headerLogo,
 	happyCreature,
 	officeGIF,
