@@ -29,8 +29,9 @@ This is a website for a local therapy and counseling office which provides infor
 <br>
 
 ## *Installation*
+To install this project, clone the repository locally and run `npm install` to install all dependencies. Then run `npm run dev` to start the development server. The project will be available at http://localhost:5173 (unless configured otherwise).
+
 For Vercel deployment, the following files are required:<br>
- 
 vercel.json
 ```
 {
