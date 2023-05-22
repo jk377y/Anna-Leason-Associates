@@ -2,17 +2,33 @@
 Temp deploy link is available, hosted by Vercel:<br>
 Live Link: https://anna-leason-associates.vercel.app/
 
-## Description
+## *Description*
 This is a website for a local therapy and counseling office which provides information about the practice, the therapists, and the services offered. It also provides a way for clients to contact the office and request an appointment.
+<br>
+<br>
 
-## Table of Contents
+
+## *Table of Contents*
+* [Technologies Used](#technologies-used)
 * [Installation](#installation)
 * [Credits](#credits)
 * [Questions](#questions)
+<br>
+<br>
 
+## *Technologies Used*
+<br>
+<a href="https://vitejs.dev/" target="_blank" rel="noreferrer"> 
+<img src="https://skillicons.dev/icons?i=vite" alt="vite" title="Vite" width="64" height="64"/></a>&nbsp;
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
+<img src="https://skillicons.dev/icons?i=react" alt="react" title="React" width="64" height="64"/></a>&nbsp; 
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=javascript" alt="javascript" title="Javascript" width="64" height="64"/></a>&nbsp;
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
+<img src="https://skillicons.dev/icons?i=css" alt="css3" title="CSS3" width="64" height="64"/></a>&nbsp;
+<br>
+<br>
 
-
-## Installation
+## *Installation*
 For Vercel deployment, the following files are required:<br>
  
 vercel.json
@@ -27,12 +43,25 @@ vercel.json
 }
 ```
 This has to do with the way Vercel handles routing. The file is named vercel.json which tells Vercel to rewrite all requests to the index.html file except for requests to the api folder. This is necessary because the api folder is handled by the server and not the client. 
+<br>
+<br>
 
+## *Credits*
+Background image `dark-green-blue-abstract-background.png`<br>
+Obtained from https://pixy.org/6395910/<br>
+Licensed under https://pixy.org/licence.php - https://creativecommons.org/publicdomain/zero/1.0/deed.en
+<br>
+<br>
 
+## *Questions*
+<h2>Portfolio:&emsp;<a href="https://jk377y.dev" target="_blank">https://jk377y.dev</a></h2>
+<h2>Email:&emsp;<a href="mailto:jk377y@gmail.com" target="_blank">jk377y@gmail.com</a></h2>
+<h2>LinkedIn:&emsp;<a href="https://www.linkedin.com/in/james-kelly-software-developer/" target="_blank">https://www.linkedin.com/in/james-kelly-software-developer/</a></h2>
+<h2>GitHub:&emsp;<a href="https://github.com/jk377y" target="_blank">https://github.com/jk377y</a></h2>
+<br>
+<br>
 
-
-## Credits
-Background image `dark-green-blue-abstract-background.png`
-obtained from 
-https://pixy.org/6395910/
-https://pixy.org/licence.php
+## *License*
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+<br>Copyright (c) 2023 James Kelly
+<br>Information on this license can be found at: (https://opensource.org/licenses/MIT)
