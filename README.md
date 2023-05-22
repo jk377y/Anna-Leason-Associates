@@ -1,14 +1,12 @@
 # Anna Leason & Associates
-still a work in progress, but a test deploy link is available hosted by Vercel:<br>
-Live Link: https://anna-leason-associates-b1z9p9cjh-jk377y.vercel.app/
-(working on SSL certificate)
+Temp deploy link is available, hosted by Vercel:<br>
+Live Link: https://anna-leason-associates.vercel.app/
 
 ## Description
 This is a website for a local therapy and counseling office which provides information about the practice, the therapists, and the services offered. It also provides a way for clients to contact the office and request an appointment.
 
 ## Table of Contents
 * [Installation](#installation)
-* [Usage](#usage)
 * [Credits](#credits)
 * [Questions](#questions)
 
