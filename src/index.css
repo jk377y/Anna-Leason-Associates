@@ -9,28 +9,15 @@
 	margin: 0;
 }
 :root {
-	--color1: #2a615c;
-	--color2: #204946;
-	--color3: #89bc6a;
-	--color4: #ffffff;
-	--color5: #ffe079;
-	/* --color5: #00ceb2; */
-	--color6: #000000;
-	--color7: #163331;
-	--color8: #00ceb2;
-	--color9: #00a2ff;
+	--color1: #ffffff;
+	--color2: #ffe079;
+	--color3: #00a2ff;
 	--window: rgba(0, 0, 0, 0.897);
 	--window2: rgba(0, 0, 0, 0.582);
-	/* --hover: #ffff00; */
 	--hover: #00ceb2;
-	/* --hover: #00a2ff; */
-	--success: #00ff00;
-	--error: #ff0000;
 	--background: rgb(75, 75, 75);
 	--shadow: rgba(20, 20, 20, 0.911);
 	--shadow2:rgba(73, 73, 73, 0.877);
-	--colorBorderTransparent: #96705198;
-	--colorBorderOpaque: #967051;
 }
 body {
 	font-family: "Poppins", sans-serif;

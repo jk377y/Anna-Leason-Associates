@@ -4,7 +4,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	color: var(--color4);
+	color: var(--color1);
 	padding: 20px;
 }
 .therapist-info, .therapist-specializations, .therapist-treatments {
@@ -16,10 +16,8 @@
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
-	/* background-color: var(--color1); */
 	background-color: var(--window2);
 	box-shadow: 1px 1px 5px 2px var(--shadow2);
-	/* border-radius: 15px; */
 }
 .therapist-profile-pic img{
 	width: 250px;
@@ -62,7 +60,7 @@
 	font-weight: 700;
 	text-align: center;
 	font-style: italic;
-	color: var(--color5);
+	color: var(--color2);
 }
 .therapist-education p {
 	font-size: 1rem;
@@ -80,23 +78,23 @@
 	text-align: center;
 	text-decoration: underline;
 	font-style: italic;
-	color: var(--color5);
+	color: var(--color2);
 }
 .therapist-specializations h4, .therapist-treatments h4 {
 	font-size: 1.1rem;
 	font-weight: 700;
 	text-align: center;
 	font-style: italic;
-	color: var(--color5);
+	color: var(--color2);
 }
 .therapist-specializations h5, .therapist-treatments h5 {
 	font-size: 1rem;
 	font-weight: 600;
 	font-style: italic;
-	color: var(--color4);
+	color: var(--color1);
 }
 .therapist-specializations p {
-	color: var(--color4);
+	color: var(--color1);
 	font-weight: 400;
 }
 .therapist-specializations ul {
@@ -104,7 +102,7 @@
 	padding: 0 0 0 50px;
 }
 .therapist-url-link {
-	color: var(--color9);
+	color: var(--color3);
 	font-weight: 600;
 	text-decoration: underline;
 }
@@ -113,12 +111,12 @@
 	cursor: pointer;
 }
 .therapist-greeting-text {
-	color: var(--color4);
+	color: var(--color1);
 	font-weight: 600;
 	font-style: italic;
 }
 .therapist-comm-link {
-	color: var(--color9);
+	color: var(--color3);
 	font-weight: 600;
 	text-decoration: none;
 	font-size: 1.15rem;

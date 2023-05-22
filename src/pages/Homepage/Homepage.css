@@ -3,7 +3,7 @@
 	margin: 75px 0 100px 0;
 	display: flex;
 	flex-direction: column;
-	color: var(--color4);
+	color: var(--color1);
 }
 .home-intro-container,
 .home-second-container {
@@ -23,7 +23,6 @@
 	box-shadow: 2px 2px 5px 5px var(--hover);
 }
 .home-welcome {
-	background-color: var(--color2);
 	background-color: var(--window2);
 	font-size: 1rem;
 	font-weight: 500;
@@ -38,7 +37,7 @@
 	font-size: 1.5rem;
 }
 .home-team-pic {
-	color: var(--color4);
+	color: var(--color1);
 	font-size: 1.5rem;
 	font-weight: 800;
 	font-style: italic;
@@ -84,7 +83,6 @@
 	width: 100%;
 	height: 150px;
 	max-width: 580px;
-	/* background-color: var(--color2); */
 	background-color: var(--window2);
 	box-shadow: 1px 1px 5px 2px var(--shadow);
 	display: flex;
@@ -99,7 +97,7 @@
 }
 .home-statements {
 	padding: 15px;
-	color: var(--color4);
+	color: var(--color1);
 	font-size: 1rem;
 	font-weight: 500;
 	text-align: justify;

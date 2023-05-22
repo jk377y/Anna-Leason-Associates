@@ -13,17 +13,17 @@
 	margin: 20px 0;
 }
 .office-info-container h3 {
-	color: var(--color5);
+	color: var(--color2);
 	font-weight: 600;
 }
 .office-info-container ul {
 	padding-left: 20px;
 }
 .office-info-container p, .office-info-container li {
-	color: var(--color4);
+	color: var(--color1);
 }
 .office-comm-link {
-	color: var(--color9);
+	color: var(--color3);
 	font-weight: 600;
 }
 .office-comm-link:hover {
