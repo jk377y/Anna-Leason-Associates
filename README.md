@@ -13,6 +13,7 @@ This is a website for a local therapy and counseling office which provides infor
 * [Installation](#installation)
 * [Credits](#credits)
 * [Questions](#questions)
+* [License](#license)
 <br>
 <br>
 
