@@ -14,11 +14,16 @@
 	--color3: #89bc6a;
 	--color4: #ffffff;
 	--color5: #ffe079;
+	/* --color5: #00ceb2; */
 	--color6: #000000;
 	--color7: #163331;
+	--color8: #00ceb2;
+	--color9: #00a2ff;
 	--window: rgba(0, 0, 0, 0.897);
 	--window2: rgba(0, 0, 0, 0.582);
-	--hover: #ffff00;
+	/* --hover: #ffff00; */
+	--hover: #00ceb2;
+	/* --hover: #00a2ff; */
 	--success: #00ff00;
 	--error: #ff0000;
 	--background: rgb(75, 75, 75);

@@ -11,16 +11,19 @@
 	max-width: 100%;
 }
 .contact-title, .contact-subtitle {
-	color: var(--color5);
+	text-transform: uppercase;
+	color: var(--color4);
 	font-weight: 600;
 	text-align: center;
 	max-width: 90%;
 }
 .contact-card-wrapper {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	max-width: 1200px;
 }
 
 .contact-card {
@@ -30,15 +33,16 @@
 	justify-content: center;
 	background-color: var(--window2);
 	border-radius: 10px;
-	border: 3px solid var(--color2);
+	border: 3px solid var(--color9);
 	box-shadow: 2px 2px 8px 3px var(--shadow);
 	padding: 5px 10px;
 	width: 90%;
+	max-width: 400px;
 	height: 150px;
 	margin: 20px 0;
 }
 .contact-person {
-	color: var(--color5);
+	color: var(--color4);
 	text-align: center;
 }
 .contact-data {
@@ -48,16 +52,46 @@
 	text-align: center;
 }
 .contact-comm-link {
-	color: var(--color5);
-	font-weight: 600;
-	text-decoration: none;
+	color: var(--color9);
+	font-weight: 400;
+	/* text-decoration: none; */
 }
 .contact-comm-link:hover {
-	color: var(--color4);
+	color: var(--hover);
 }
 
 
-@media screen and (min-width: 450px) {
-
+@media screen and (min-width: 425px) {
+	.contact-data {
+		font-size: 16px;
+	}
+	.contact-card {
+		/* width: 100%; */
+		margin: 0;	
+	}
+	.contact-card-wrapper {
+		margin-top: 50px;
+		gap: 30px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.contact-outer-wrapper {
+		margin: 150px 0 100px 0;
+	}
+	.contact-person {
+		font-size: 24px;
+	}
+	.contact-data {
+		font-size: 18px;
+	}
+	.contact-card {
+		width: 500px;
+		height: 175px;
+	}
+	.contact-card-wrapper {
+		width: 90%;
+		max-width: 1400px;
+		gap: 50px;
+	}
 }
 /* End Contact */

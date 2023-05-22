@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
             <nav id="nav-bar-lg-screen" className="nav-bar-lg-screen">
                 <a href="/" className="nav-bar-link">HOME</a>
-                <div className="nav-bar-link nav-dropdown"><a className="nav-dropdown-anchor-link" href='/therapists'>OUR TEAM ▼</a>
+                <div className="nav-bar-link nav-dropdown"><a className="nav-dropdown-anchor-link" href='/therapists'>OUR TEAM <span className='nav-dropdown-arrow'>▼</span></a>
                     <ul className="nav-dropdown-menu">
                         <li><a href="/therapists/Anna">Anna Leason</a></li>
                         <li><a href="/therapists/Teresa">Teresa Linneman</a></li>

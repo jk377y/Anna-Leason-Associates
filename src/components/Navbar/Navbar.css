@@ -17,7 +17,7 @@
 		text-align: center;
 	}
 	.nav-dropdown-anchor-link:hover {
-		color: var(--color5);
+		/* color: var(--color5); */
 	}
 	.nav-bar-link {
 		color: var(--color4);
@@ -33,8 +33,8 @@
 		transition: color 0.25s ease, box-shadow 0.25s ease;
 	}
 	.nav-bar-link:hover {
-		color: var(--color5);
-		box-shadow: 1px 1px 15px 2px var(--color5);
+		/* color: var(--color); */
+		box-shadow: 1px 1px 15px 2px var(--color4);
 	}
 	.nav-sm-screen {
 		display: none;
@@ -72,8 +72,8 @@
 		transition: color 0.3s ease;
 		text-align: center;
 	}
-	.nav-dropdown-menu a:hover {
-		color: var(--color5);
+	.nav-dropdown-menu a:hover, .nav-dropdown-arrow:hover {
+		color: var(--hover);
 	}
 }
 @media screen and (min-width: 1024px) {

@@ -16,8 +16,11 @@
 .home-intro-container img {
 	width: 100%;
 	max-width: 580px;
-	box-shadow: 2px 2px 4px 4px var(--shadow);
+	box-shadow: 2px 2px 5px 5px var(--shadow);
 	border-radius: 5px;
+}
+.home-intro-container img:hover {
+	box-shadow: 2px 2px 5px 5px var(--hover);
 }
 .home-welcome {
 	background-color: var(--color2);
@@ -71,7 +74,7 @@
 	transition: opacity 2s ease-out;
 }
 .home-second-container {
-	margin: 450px 0 50px 0;
+	margin: 250px 0 50px 0;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -81,6 +84,7 @@
 	width: 100%;
 	height: 150px;
 	max-width: 580px;
+	/* background-color: var(--color2); */
 	background-color: var(--window2);
 	box-shadow: 1px 1px 5px 2px var(--shadow);
 	display: flex;
@@ -127,6 +131,9 @@
 	}
 }
 @media screen and (min-width: 768px) {
+	.home-main-container {
+		margin-bottom: 0px;
+	}
 	.home-second-container {
 		margin-top: 25px;
 	}

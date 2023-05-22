@@ -19,11 +19,12 @@
 .all-therapists-pics {
 	width: 171px;
 	height: 233px;
+	margin-top: 5px;
 	border-radius: 15px;
 	box-shadow: 5px 5px 10px var(--shadow);
 }
 .all-therapists-pics:hover {
-	box-shadow: 0px 0px 5px 5px var(--color3);
+	box-shadow: 0px 0px 10px 5px var(--hover);
 }
 .all-therapists-pics-scroll-view div p {
 	display: flex;

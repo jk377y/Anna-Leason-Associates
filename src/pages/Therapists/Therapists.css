@@ -104,12 +104,12 @@
 	padding: 0 0 0 50px;
 }
 .therapist-url-link {
-	color: var(--success);
+	color: var(--color9);
 	font-weight: 600;
 	text-decoration: underline;
 }
 .therapist-url-link:hover {
-	color: var(--color5);
+	color: var(--hover);
 	cursor: pointer;
 }
 .therapist-greeting-text {
@@ -118,13 +118,13 @@
 	font-style: italic;
 }
 .therapist-comm-link {
-	color: var(--color4);
+	color: var(--color9);
 	font-weight: 600;
 	text-decoration: none;
 	font-size: 1.15rem;
 }
 .therapist-comm-link:hover {
-	color: var(--color5);
+	color: var(--hover);
 	text-decoration: underline;
 	cursor: pointer;
 }

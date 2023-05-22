@@ -23,11 +23,11 @@
 	color: var(--color4);
 }
 .office-comm-link {
-	color: var(--color4);
+	color: var(--color9);
 	font-weight: 600;
 }
 .office-comm-link:hover {
-	color: var(--color5);
+	color: var(--hover);
 }
 .office-internal-pics {
 	margin: 40px 0 20px 0;
