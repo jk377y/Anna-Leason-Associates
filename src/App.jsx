@@ -1,5 +1,4 @@
-// import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import Header from "./components/Header/Header";
 import MobileHamburgerNav from "./components/MobileHamburgerNav/MobileHamburgerNav";
 import Homepage from "./pages/Homepage/Homepage";
@@ -13,15 +12,17 @@ import Teresa from "./pages/Therapists/Teresa";
 import Office from "./pages/Office/Office";
 import Information from "./pages/Information/Information";
 import Contact from "./pages/Contact/Contact";
-
+import NotFound from "./pages/NotFound/NotFound";
 const App = () => {
 	return (
-		<Router>
 		<>
 			<MobileHamburgerNav />
 			<Header />
 			<Routes>
+				<Route index element={<Homepage/>} />
 				<Route path="/" element={<Homepage/>} />
+				<Route path="/home" element={<Homepage/>} />
+				<Route path="/homepage" element={<Homepage/>} />
 				<Route path="/therapists" element={<AllTherapists />} />
 					<Route path="/therapists/anna" element={<Anna />} />
 					<Route path="/therapists/teresa" element={<Teresa />} />
@@ -32,9 +33,9 @@ const App = () => {
 				<Route path="/office" element={<Office />} />
 				<Route path="/information" element={<Information />} />
 				<Route path="/contact" element={<Contact />} />
+				<Route path="*" element={<NotFound/>} />
 			</Routes>
 		</>
-		</Router>
 	);
 };
 export default App;

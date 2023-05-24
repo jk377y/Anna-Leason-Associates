@@ -19,7 +19,7 @@ const Contact = () => {
 							<h3 className="contact-person">Teresa Linnemann, LMFT</h3>
 							<p className="contact-data">Phone or Text: <a href="tel:346-298-9500" className="contact-comm-link">346-298-9500</a></p>
 							<p className="contact-data">Email: <a href="mailto:teresalinnemann@counselingmail.com" className="contact-comm-link">teresalinnemann@counselingmail.com</a></p>
-							<p className="contact-data">Visit my website <a href="https://www.isftherapy.com/" className="contact-comm-link">isftherapy.com</a></p>
+							<p className="contact-data">Visit my website <a href="https://www.isftherapy.com/" target="_blank" rel="noreferrer" className="contact-comm-link">isftherapy.com</a></p>
 						</div>
 						<div className="contact-card">
 							<h3 className="contact-person">Leann Jenkins, LPC Associate</h3>

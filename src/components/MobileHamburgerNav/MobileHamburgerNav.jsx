@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import IMAGES from '../../assets/images/index';
 import "./MobileHamburgerNav.css";
@@ -25,11 +26,11 @@ const MobileHamburgerNav = () => {
 						<div>
 							<img src={IMAGES.headerLogo} alt="logo" />
 						</div>
-						<a href="/">HOME</a>
-						<a href="/therapists">OUR TEAM</a>
-						<a href="/office">OUR OFFICE</a>
-						<a href="/information">INFORMATION</a>
-						<a href="/contact">CONTACT US</a>
+						<Link to="/">HOME</Link>
+						<Link to="/therapists">OUR TEAM</Link>
+						<Link to="/office">OUR OFFICE</Link>
+						<Link to="/information">INFORMATION</Link>
+						<Link to="/contact">CONTACT US</Link>
 					</div>
 				</div>
 			</div>

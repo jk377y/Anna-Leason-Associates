@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
 import IMAGES from '../../assets/images/index';
 import "./Homepage.css";
@@ -30,7 +31,7 @@ const Homepage = () => {
 						<br />
 						<h4 className="home-team-pic">Our Team</h4>
 						<br/>
-						<a href="/therapists"><img src={IMAGES.team2022} alt="team 2022 pic"/></a>
+						<Link to="/therapists"><img src={IMAGES.team2022} alt="team 2022 pic"/></Link>
 					</div>
 					<div className="home-quote-container">
 						<div className="home-quote-frame">

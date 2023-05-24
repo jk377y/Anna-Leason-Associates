@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import IMAGES from "../../assets/images/index";
 import "./Office.css";
 
@@ -7,7 +8,7 @@ const Office = () => {
 			<div className="office-outer-container">
 				<div className="office-info-container">
 					<h3>Onsite visits and telehealth available</h3>
-					<p>&emsp;&emsp;Please visit our <a href="/contact" className="office-comm-link">CONTACT</a> page to make an appointment</p>
+					<p>&emsp;&emsp;Please visit our <Link to="/contact" className="office-comm-link">CONTACT</Link> page to make an appointment</p>
 				</div>
 				<div className="office-info-container">
 					<h3>Our Office</h3>
@@ -16,7 +17,7 @@ const Office = () => {
 						<li>Plenty of free parking is available.</li>
 						<li>Your visit will be stress free and relaxed.</li>
 						<li>Before your first visit, please click <a href="https://hipaa.jotform.com/203186077433051" target="_blank" rel="noreferrer" className="office-comm-link">HERE</a> to fill out required forms online.</li>
-						<li>For office financial policies and insurance information click <a href="/information" className="office-comm-link">HERE</a></li>
+						<li>For office financial policies and insurance information click <Link to="/information" className="office-comm-link">HERE</Link></li>
 					</ul>
 				</div>
 				<div className="office-internal-pics">
