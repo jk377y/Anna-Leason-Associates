@@ -66,10 +66,10 @@
 	display: flex;
 	justify-content: center;
 	position: absolute;
-	width: 100vw;
+	width: 99vw;
 	height: 100vh;
 	top: 0px;
-	right: -100vw;
+	right: -99vw;
 	border-radius: 5px;
 	background-color: var(--window);
 	transition: all 0.5s ease;
@@ -117,7 +117,7 @@
 }
 @keyframes slideIn {
 	0% {
-		right: -100vw;
+		right: -99vw;
 	}
 	100% {
 		right: 0;
@@ -128,7 +128,7 @@
 		transition: translateX(0);
 	}
 	100% {
-		transition: translateX(-100vw);
+		transition: translateX(-99vw);
 	}
 }
 @media screen and (min-width: 768px) {
