@@ -66,10 +66,10 @@
 	display: flex;
 	justify-content: center;
 	position: absolute;
-	width: 99vw;
+	width: 100vw;
 	height: 100vh;
 	top: 0px;
-	right: -99vw;
+	right: -100vw;
 	border-radius: 5px;
 	background-color: var(--window);
 	transition: all 0.5s ease;
@@ -111,13 +111,13 @@
 	animation: slideIn 0.75s ease;
 }
 .hide {
-	right: calc(-100% - 10px);
+	right: -100%;
 	transition: all 0.5s ease;
 	animation: slideOut 0.75s ease;
 }
 @keyframes slideIn {
 	0% {
-		right: -99vw;
+		right: -100vw;
 	}
 	100% {
 		right: 0;
@@ -128,7 +128,7 @@
 		transition: translateX(0);
 	}
 	100% {
-		transition: translateX(-99vw);
+		transition: translateX(-100vw);
 	}
 }
 @media screen and (min-width: 768px) {
