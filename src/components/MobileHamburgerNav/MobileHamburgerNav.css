@@ -128,35 +128,6 @@
 .hide {
 	right: -100vw;
 }
-/* .show {
-	right: 0;
-	transition: all 0.3s ease-in-out;
-	animation: slideIn 0.3s ease-in-out;
-} */
-
-/* .hide {
-	right: -100vw;
-	transition: all 0.3s ease-in-out;
-	animation: slideOut 0.3s ease-in-out;
-} */
-
-/* @keyframes slideIn {
-	0% {
-		right: -100vw;
-	}
-	100% {
-		right: 0;
-	}
-} */
-
-/* @keyframes slideOut {
-	0% {
-		transition: translateX(0);
-	}
-	100% {
-		transition: translateX(-100vw);
-	}
-} */
 
 @media screen and (min-width: 768px) {
 	.hamburgerBtn,
