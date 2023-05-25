@@ -20,7 +20,7 @@
 	border-radius: 5px;
 }
 .home-intro-container img:hover {
-	box-shadow: 0px 0px 0px 2px var(--color3);
+	box-shadow: 0px 0px 0px 2px var(--hover);
 }
 .home-welcome {
 	background-color: var(--window2);

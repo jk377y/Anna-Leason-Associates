@@ -1,6 +1,6 @@
 /* Start Header */
 header {
-	background-color: #2525253a;
+	background-color: var(--color2);
 	position: relative;
 	display: flex;
 	justify-content: center;

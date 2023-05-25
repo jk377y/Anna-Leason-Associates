@@ -1,38 +1,36 @@
 /* Start AllTherapists */
-.all-therapists-pics-container {
+.all-therapists-outer-container {
 	width: 100%;
-	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 100px;
 }
-.all-therapists-pics-scroll-view {
+.all-therapists-inner-container {
 	margin: 100px 0 0 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 50px;
 	width: 90%;
-	max-width: 700px;
+	gap: 30px;
+	/* max-width: 1000px; */
 }
-.all-therapists-pics {
-	width: 171px;
-	height: 233px;
+.all-therapists-inner-container div img {
+	width: 250px;
 	margin-top: 5px;
 	border-radius: 15px;
 	box-shadow: 5px 5px 10px var(--shadow);
 }
 .all-therapists-pics:hover {
-	/* box-shadow: 0px 0px 10px 5px var(--hover); */
-	box-shadow: 0px 0px 5px 3px var(--color3);
+	box-shadow: 0px 0px 5px 3px var(--hover);
 }
-.all-therapists-pics-scroll-view div p {
-	display: flex;
+.all-therapists-inner-container div p {
+	/* display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	width: 171px;
+	width: 171px; */
 	color: white;
+	text-align: center;
 }
 /* End AllTherapists */

@@ -9,13 +9,19 @@
 	margin: 0;
 }
 :root {
-	--color1: #ffffff;
-	--color2: #ffe079;
-	--color3: #00a2ff;
+	/* --color1: #ffffff; */
+	--color1: #EAE3D2;
+	/* --color2: #ffe079; */
+	--color2: #29303f;
+	/* --color3: #00a2ff; */
+	--color3: #ffffff;
+	--color4: #3AB4F2;
 	--window: rgba(0, 0, 0, 0.897);
 	--window2: rgba(0, 0, 0, 0.582);
-	--hover: #00ceb2;
-	--background: rgb(75, 75, 75);
+	/* --hover: #00ceb2; */
+	--hover: #3AB4F2;
+	/* --background: rgb(75, 75, 75); */
+	--background: #607EAA;;
 	--shadow: rgba(20, 20, 20, 0.911);
 	--shadow2:rgba(73, 73, 73, 0.877);
 }
@@ -25,8 +31,9 @@ body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	/* background-color: var(--background); */
 	background-color: var(--background);
-	background-image: url(./assets/images/index/dark-green-blue-abstract-background.avif);
+	/* background-image: url(./assets/images/index/dark-green-blue-abstract-background.avif); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
