@@ -82,7 +82,7 @@
 	right: -100vw;
 	border-radius: 5px;
 	background-color: var(--window);
-	transition: all 0.3s ease;
+	transition: all 0.3s ease-in-out;
 }
 
 .nav-mobile-menu {
@@ -123,14 +123,14 @@
 
 .show {
 	right: 0;
-	transition: all 0.3s ease;
-	animation: slideIn 0.3s ease;
+	transition: all 0.3s ease-in-out;
+	animation: slideIn 0.3s ease-in-out;
 }
 
 .hide {
 	right: -100vw;
-	transition: all 0.3s ease;
-	animation: slideOut 0.3s ease;
+	transition: all 0.3s ease-in-out;
+	animation: slideOut 0.3s ease-in-out;
 }
 
 @keyframes slideIn {
@@ -142,14 +142,24 @@
 	}
 }
 
-@keyframes slideOut {
+/* @keyframes slideOut {
 	0% {
 		transition: translateX(0);
 	}
 	100% {
 		transition: translateX(-100vw);
 	}
+} */
+
+@keyframes slideOut {
+	0% {
+		right: 0;
+	}
+	100% {
+		right: -100vw;
+	}
 }
+
 @media screen and (min-width: 768px) {
 	.hamburgerBtn,
 	.nav-mobile-menu-div,
