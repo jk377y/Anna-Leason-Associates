@@ -1,7 +1,7 @@
 /* Start Contact */
 .contact-outer-wrapper {
 	width: 100%;
-	margin: 75px 0 100px 0;
+	margin: 75px 0 50px 0;
 }
 .contact-inner-wrapper {
 	display: flex;
@@ -42,7 +42,7 @@
 	margin: 20px 0;
 }
 .contact-person {
-	color: var(--color1);
+	color: rgb(0, 255, 179);
 	text-align: center;
 }
 .contact-data {
@@ -73,9 +73,6 @@
 	}
 }
 @media screen and (min-width: 1024px) {
-	.contact-outer-wrapper {
-		margin: 75px 0 100px 0;
-	}
 	.contact-person {
 		font-size: 24px;
 	}

@@ -15,11 +15,11 @@ const Homepage = () => {
 	}, [currentIndex, images.length]);
 
 	return (
-		<main>
-			<div className="home-main-container">
-				<div className="home-main-first-container">
-					<div className="home-intro-container">
-						<h4 className="home-welcome">
+		<>
+			<div className="home-outer-wrapper">
+				<div className="home-first-outer-container">
+					<div className="home-first-inner-container">
+						<h4 className="home-first-welcome">
 							<span>Welcome ....</span>
 							<br />
 							<br />
@@ -31,7 +31,7 @@ const Homepage = () => {
 						<br />
 						<h4 className="home-team-pic">Our Team</h4>
 						<br/>
-						<Link to="/therapists"><img src={IMAGES.team2022} alt="team 2022 pic"/></Link>
+						<img src={IMAGES.team2022} alt="team 2022 pic"/>
 					</div>
 					<div className="home-quote-container">
 						<div className="home-quote-frame">
@@ -41,24 +41,24 @@ const Homepage = () => {
 						</div>
 					</div>
 				</div>
+				<div className="home-second-container">
+					<div className="home-card-wrapper">
+						<img src={IMAGES.happyfamily}/>
+						<p className="home-statements">Counseling is offered for individuals, couples, families, adults and children. However, our counselors <span>do not</span> write reports or testify in court.</p>
+					</div>
+					<br/>
+					<div className="home-card-wrapper">
+						<img src={IMAGES.happyfamily2}/>
+						<p className="home-statements">We offer both on site visits and tele therapy. <span>Spanish speaking therapists are available.</span></p>
+					</div>
+					<br/>
+					<div className="home-card-wrapper">
+						<img src={IMAGES.donations}/>
+						<p className="home-statements"><span>Please note :</span> A percentage of profit from this practice is donated monthly to local charity.</p>
+					</div>
+				</div>
 			</div>
-			<div className="home-second-container">
-				<div className="home-statement-wrapper">
-					<div className="home-empty-title-bar"></div>
-					<h4 className="home-statements">Counseling is offered for individuals, couples, families, adults and children. However, our counselors <span>do not</span> write reports or testify in court.</h4>
-				</div>
-				<br/>
-				<div className="home-statement-wrapper">
-					<div className="home-empty-title-bar"></div>
-					<h4 className="home-statements">We offer both on site visits and tele therapy. <span>Spanish speaking therapists are available.</span></h4>
-				</div>
-				<br/>
-				<div className="home-statement-wrapper">
-					<div className="home-empty-title-bar"></div>
-					<h4 className="home-statements"><span>Please note :</span> A percentage of profit from this practice is donated monthly to local charity.</h4>
-				</div>
-			</div>
-		</main>
+		</>
 	);
 };
 

@@ -1,13 +1,12 @@
 /* Start AllTherapists */
 .all-therapists-outer-container {
+	margin: 75px 0 50px 0;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 100px;
 }
 .all-therapists-inner-container {
-	margin: 100px 0 0 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;

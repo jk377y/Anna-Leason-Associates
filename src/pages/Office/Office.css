@@ -1,6 +1,6 @@
 /* Start Office */
 .office-outer-container {
-	margin: 75px 0 100px 0;
+	margin: 75px 0 50px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -35,12 +35,14 @@
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 20px;
-	max-width: 90%;
+	/* width: 90%; */
+	gap: 30px;
 }
 .office-internal-pics img {
-	max-width: 90%;
-	box-shadow: 2px 2px 8px 3px var(--shadow);
+	width: 90%;
+	max-width: 330px;
+	box-shadow: 3px 3px 5px 2px var(--shadow);
+	border-radius: 5px;
 }
 .office-map-container {
 	margin: 40px 0;

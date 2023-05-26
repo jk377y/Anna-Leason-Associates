@@ -1,5 +1,8 @@
 import headerLogo from "./index/Header-2a.avif";
 import happyCreature from "./index/Happy-Creature.avif";
+import happyfamily from "./index/happy-family.avif";
+import happyfamily2 from "./index/happy-family2.avif";
+import donations from "./index/donations.avif";
 import team2022 from "./group/team2022.avif";
 import office1 from "./office/Office1.avif";
 import office2 from "./office/Office2.avif";
@@ -24,6 +27,9 @@ import teresa from "./therapists/Teresa.avif";
 const IMAGES = {
 	headerLogo,
 	happyCreature,
+	happyfamily,
+	happyfamily2,
+	donations,
 	officeGIF,
 	office1,
 	office2,
