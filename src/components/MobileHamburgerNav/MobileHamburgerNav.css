@@ -81,7 +81,7 @@
 	top: 0;
 	right: -100vw;
 	border-radius: 5px;
-	background-color: var(--color2);
+	background-color: #29303fee;
 	transition: right 0.3s ease;
 }
 
@@ -89,7 +89,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 100px 0 50px 0;
+	margin: 50px 0 0 0;
 }
 
 .nav-mobile-menu div {
