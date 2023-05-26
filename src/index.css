@@ -9,18 +9,13 @@
 	margin: 0;
 }
 :root {
-	/* --color1: #ffffff; */
 	--color1: #EAE3D2;
-	/* --color2: #ffe079; */
 	--color2: #29303f;
-	/* --color3: #00a2ff; */
 	--color3: #ffffff;
 	--color4: #3AB4F2;
 	--window: #29303f62;
 	--window2: #29303fa8;
-	/* --hover: #00ceb2; */
 	--hover: #3AB4F2;
-	/* --background: rgb(75, 75, 75); */
 	--background: #607EAA;;
 	--shadow: rgba(20, 20, 20, 0.911);
 	--shadow2:rgba(73, 73, 73, 0.877);
@@ -31,9 +26,7 @@ body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	/* background-color: var(--background); */
 	background-color: var(--background);
-	/* background-image: url(./assets/images/index/dark-green-blue-abstract-background.avif); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;

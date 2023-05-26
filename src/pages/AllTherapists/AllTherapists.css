@@ -12,7 +12,6 @@
 	justify-content: center;
 	width: 90%;
 	gap: 30px;
-	/* max-width: 1000px; */
 }
 .all-therapists-inner-container div img {
 	width: 250px;
@@ -24,11 +23,6 @@
 	box-shadow: 0px 0px 5px 3px var(--hover);
 }
 .all-therapists-inner-container div p {
-	/* display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	width: 171px; */
 	color: white;
 	text-align: center;
 }
