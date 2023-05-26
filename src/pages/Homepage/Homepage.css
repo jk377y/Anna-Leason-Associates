@@ -39,9 +39,6 @@
 	box-shadow: 3px 3px 5px 2px var(--shadow);
 	border-radius: 5px;
 }
-.home-first-inner-container img:hover {
-	box-shadow: 0px 0px 0px 2px var(--hover);
-}
 .home-team-pic {
 	color: var(--color1);
 	font-size: 1.5rem;
@@ -103,6 +100,8 @@
 }
 .home-card-wrapper img {
 	max-width: 100%;
+	box-shadow: 2px 2px 4px 1px var(--shadow);
+	border-radius: 5px;
 }
 .home-statements {
 	color: var(--color1);
