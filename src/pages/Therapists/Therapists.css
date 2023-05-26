@@ -7,7 +7,7 @@
 	color: var(--color1);
 }
 .therapist-info, .therapist-specializations, .therapist-treatments {
-	max-width: 90%;
+	max-width: 85%;
 }
 .therapist-info {
 	margin-top: 50px;
@@ -40,6 +40,7 @@
 	align-items: center;
 }
 .therapist-title h2 {
+	color: var(--color4);
 	font-size: 1.25rem;
 	font-weight: 700;
 	font-style: italic;
@@ -52,13 +53,16 @@
 .therapist-education {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 .therapist-education h3 {
 	font-size: 1.15rem;
 	font-weight: 700;
 	text-align: center;
 	font-style: italic;
-	color: var(--color3);
+	color: var(--color4);
 }
 .therapist-education p {
 	font-size: 1rem;
@@ -68,7 +72,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 0 10px;
+	padding: 0 20px;
 }
 .therapist-specializations h3 {
 	font-size: 1.2rem;

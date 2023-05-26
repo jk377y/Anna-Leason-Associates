@@ -42,7 +42,7 @@
 	margin: 20px 0;
 }
 .contact-person {
-	color: rgb(124, 185, 255);
+	color: var(--color4);
 	text-align: center;
 }
 .contact-data {
