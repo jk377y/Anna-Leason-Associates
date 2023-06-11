@@ -32,7 +32,7 @@ const Tammy = () => {
 							<p>Texas A&M University 2006</p>
 							<p>Master of Public Health</p>
 							<br/>
-							<p>Stephen F. Austin State Universtiy 1996</p>
+							<p>Stephen F. Austin State University 1996</p>
 							<p>BS Heath Science</p>
 							<br/>
 						</div>
