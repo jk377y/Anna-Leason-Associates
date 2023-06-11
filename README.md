@@ -48,13 +48,6 @@ This has to do with the way Vercel handles routing. The file is named vercel.jso
 <br>
 <br>
 
-## *Credits*
-Background image `dark-green-blue-abstract-background.png`<br>
-Obtained from https://pixy.org/6395910/<br>
-Licensed under https://pixy.org/licence.php - https://creativecommons.org/publicdomain/zero/1.0/deed.en
-<br>
-<br>
-
 ## *Questions*
 <h3>Portfolio:&emsp;<a href="https://jk377y.dev" target="_blank">https://jk377y.dev</a></h3>
 <h3>Email:&emsp;<a href="mailto:jk377y@gmail.com" target="_blank">jk377y@gmail.com</a></h3>
